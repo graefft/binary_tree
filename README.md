@@ -259,5 +259,5 @@ alex@/tmp/binary_trees$
 ---
 
 ## Author
-* **Thomas Graeff** - [narnat](https://github.com/narnat)
+* **Thomas Graeff** - [graefft](https://github.com/graefft)
 * **Farrukh Akhrarov** - [narnat](https://github.com/narnat)
