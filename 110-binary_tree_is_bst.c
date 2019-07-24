@@ -11,12 +11,12 @@
 int isBST(binary_tree_t *node, int min, int max)
 {
 	if (node == NULL)
-		return 1;
+		return (1);
 	if (node->n < min || node->n > max)
-		return 0;
+		return (0);
 	return
-		isBST(node->left, min, node->n-1) &&
-		isBST(node->right, node->n+1, max);
+		(isBST(node->left, min, node->n - 1) &&
+		 isBST(node->right, node->n + 1, max));
 }
 
 /**
