@@ -16,7 +16,7 @@ avl_t *avl_rec(int *array, int l, int r)
 	if (l > r)
 		return (NULL);
 
-	mid = (r + l) / 2;
+	mid = l + (r - l) / 2;
 	root = binary_tree_node(NULL, array[mid]);
 
 	root->left = avl_rec(array, l, mid - 1);
