@@ -6,8 +6,7 @@
  * @array: sorted array
  * @l: left index
  * @r: right index
- * @root: root of the AVL tree
- * Return: Nothing
+ * Return: AVL tree
  */
 avl_t *avl_rec(int *array, int l, int r)
 {
