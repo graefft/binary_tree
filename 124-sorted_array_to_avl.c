@@ -18,6 +18,8 @@ avl_t *avl_rec(int *array, int l, int r)
 
 	mid = l + (r - l) / 2;
 	root = binary_tree_node(NULL, array[mid]);
+	if (!root)
+		return (NULL);
 
 	root->left = avl_rec(array, l, mid - 1);
 	if (root->left)
