@@ -1,0 +1,3 @@
+[submodule "holbertonschool-low_level_programming/0x1D-binary_trees"]
+	path = holbertonschool-low_level_programming/0x1D-binary_trees
+	url = https://github.com/graefft/binary_tree.git
